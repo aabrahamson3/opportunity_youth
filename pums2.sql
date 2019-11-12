@@ -1,13 +1,13 @@
 /* Identifying King County Pumas  */
 
--- SELECT puma, count(puma)
--- FROM pums_2017
--- WHERE puma BETWEEN '11610' AND '11614'
--- AND agep BETWEEN '16' AND '24'
--- AND SCH = '1'
--- AND (esr = '3' or esr = '6')
--- GROUP BY puma
--- LIMIT 50;
+SELECT puma, count(puma)
+FROM pums_2017
+WHERE puma BETWEEN '11610' AND '11614'
+AND agep BETWEEN '16' AND '24'
+AND SCH = '1'
+AND (esr = '3' or esr = '6')
+GROUP BY puma
+LIMIT 50;
 
 /* Below is looking at people weights and grouping by them */
 
