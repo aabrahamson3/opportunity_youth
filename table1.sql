@@ -5,7 +5,7 @@
                 on their age range and wheater or not they are an opportunity youth
 */
 
-SELECT 
+/*SELECT 
     --COUNT(*) AS row_count,
     SUM(pums_2017.pwgtp) AS estimated_people, 
     ROUND(SUM(pums_2017.pwgtp) / SUM(SUM(pums_2017.pwgtp)) OVER(PARTITION BY age_group) * 100, 0) AS percent,
@@ -18,6 +18,25 @@ WHERE puma BETWEEN '11610' AND '11614' OR puma BETWEEN '11604' AND '11605'
 --AND pums_2017.agep BETWEEN 16 AND 14
 --AND age_group = '16 - 18' OR age_group = '19 - 21' OR age_group = '22 - 24'
 GROUP BY who11.opportunity_youth, age11.age_group
+HAVING age_group IS NOT NULL;*/
+
+SELECT 
+    SUM(pums_2017.pwgtp) AS estimated_people, 
+    ROUND(SUM(pums_2017.pwgtp) / SUM(SUM(pums_2017.pwgtp)) OVER(PARTITION BY age_group) * 100, 0) AS percent,
+    CASE
+    WHEN agep BETWEEN '16' AND '18' THEN '16 - 18'
+    WHEN agep BETWEEN '19' AND '21' THEN '19 - 21'
+    WHEN agep BETWEEN '22' AND '24' THEN '22 - 24'
+    ELSE NULL
+    END AS age_group,
+    CASE WHEN sch = '1' THEN
+        CASE WHEN (esr = '2' OR esr = '3' OR esr = '5' OR esr = '6')
+            THEN 'opportunity_youth'
+        ELSE 'working_without_diploma' 
+        END
+    ELSE 'not_an_opportunity_youth'
+    END AS opportunity_youth 
+FROM pums_2017 
+WHERE puma BETWEEN '11610' AND '11614' OR puma BETWEEN '11604' AND '11605'
+GROUP BY who11.opportunity_youth, age11.age_group
 HAVING age_group IS NOT NULL;
-/*SELECT agep FROM pums_2017
-WHERE agep BETWEEN 16 AND 24;*/
