@@ -13,7 +13,7 @@ CREATE TABLE age11 AS (
         WHEN agep BETWEEN '16' AND '18' THEN '16 - 18'
         WHEN agep BETWEEN '19' AND '21' THEN '19 - 21'
         WHEN agep BETWEEN '22' AND '24' THEN '22 - 24'
-        ELSE '25 - 99'
+        ELSE NULL
         END AS age_group 
     FROM pums_2017
 );
