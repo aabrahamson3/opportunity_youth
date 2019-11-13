@@ -5,6 +5,8 @@
                 on their age range and wheater or not they are an opportunity youth
 */
 
+CREATE TABLE final_table AS (
+
 SELECT 
     --COUNT(*) AS row_count,
     SUM(pums_2017.pwgtp) AS estimated_people, 
@@ -18,6 +20,7 @@ WHERE puma BETWEEN '11610' AND '11614' OR puma BETWEEN '11604' AND '11605'
 --AND pums_2017.agep BETWEEN 16 AND 14
 --AND age_group = '16 - 18' OR age_group = '19 - 21' OR age_group = '22 - 24'
 GROUP BY who11.opportunity_youth, age11.age_group
-HAVING age_group IS NOT NULL;
+HAVING age_group IS NOT NULL
 /*SELECT agep FROM pums_2017
 WHERE agep BETWEEN 16 AND 24;*/
+);
