@@ -1,0 +1,43 @@
+README
+
+Data from NOAA Technical Memorandum OAR PMEL-122
+Tidal Datum Distributions in Puget Sound, Washington, Based on a Tide Model
+H.O. Mofjeld, A.J. Venturato, V.V. Titov, F.I. Gonzalez, J.C. Newman
+
+http://www.pmel.noaa.gov/pubs/PDF/mofj2533/mofj2533.pdf
+
+-----------------------------------------------------------------------------
+Distributor:  NOAA Center for Tsunami Inundation Mapping Efforts
+Use Constraints: These files were created for the sole purpose of tide 
+       modeling research.  They are not meant for navigational or other 
+       scientific means.
+
+-----------------------------------------------------------------------------
+DESCRIPTION
+
+The shapefiles include the following:
+
+ps_model - model data computed polygons; dbf file includes all data described 
+in ps_model_fields_README
+
+ps_polynode - point file includes all nodes used to create polygons; dbf file 
+includes id, coordinates, and name
+
+ps_regions - polygon file includes regions discussed in the report (Admiralty 
+Inlet, Hood Canal, Whidbey Basin, Main Basin, and South Sound)
+
+ps_tidesta - point file of tide stations; dbf file includes station name, id, 
+coordinates
+
+
+For those who do not have ArcView, comma-delimited text files of ps_model, 
+ps_polynode, and ps_tidesta were created.  ps_model coordinates represent the 
+centroid of the polygons.
+
+The shoreline used in the Puget Sound Tide Model can be obtained through the 
+Washington State Department of Ecology (http://www.ecy.wa.gov/)
+
+Refer to the metadata files for detailed information about each dataset.
+
+-----------------------------------------------------------------------------
+
