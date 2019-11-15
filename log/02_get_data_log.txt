@@ -1,0 +1,14 @@
+Start downloading data and documentation
+Archive:  data/raw/csv_pwa.zip
+  inflating: data/raw/psam_p53.csv   
+  inflating: data/raw/ACS2013_2017_PUMS_README.pdf  
+Archive:  data/raw/tl_2017_53_puma10.zip
+ extracting: data/raw/tl_2017_53_puma10.cpg  
+  inflating: data/raw/tl_2017_53_puma10.dbf  
+  inflating: data/raw/tl_2017_53_puma10.prj  
+  inflating: data/raw/tl_2017_53_puma10.shp  
+  inflating: data/raw/tl_2017_53_puma10.shp.ea.iso.xml  
+  inflating: data/raw/tl_2017_53_puma10.shp.iso.xml  
+  inflating: data/raw/tl_2017_53_puma10.shp.xml  
+  inflating: data/raw/tl_2017_53_puma10.shx  
+Finished downloading data and documentation
