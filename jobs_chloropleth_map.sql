@@ -1,1 +1,0 @@
-SELECT w_geocode FROM wa_jobs_2017;
