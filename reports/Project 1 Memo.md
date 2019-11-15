@@ -1,9 +1,12 @@
 ﻿MEMORANDUM
 
 
-DATE: Friday, November 15, 2019
+DATE: Friday, November 15, 2019 
+
 TO: The Seattle Regional Partnership 
+
 FROM: Aaron Abrahamson, Akash Rama, Yu Fen Lin, Flatiron School Seattle
+
 Subject: A Revised Update on the Number of Opportunity Youth in South King County
 
 
