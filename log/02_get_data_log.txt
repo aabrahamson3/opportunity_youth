@@ -11,6 +11,7 @@ Archive:  data/raw/tl_2017_53_puma10.zip
   inflating: data/raw/tl_2017_53_puma10.shp.iso.xml  
   inflating: data/raw/tl_2017_53_puma10.shp.xml  
   inflating: data/raw/tl_2017_53_puma10.shx  
+<<<<<<< HEAD
 \x auto
 Expanded display is used automatically.
 /*
@@ -452,4 +453,6 @@ COPY wa_geo_xwalk
 FROM :WA_XWALK_PATH
 DELIMITER ',' CSV HEADER;
 COPY 195574
+=======
+>>>>>>> c8f3fde7812ffa82d2385b9cb3b2227ed1e0c126
 Finished downloading data and documentation

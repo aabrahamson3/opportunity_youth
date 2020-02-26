@@ -1,0 +1,10 @@
+,estimated_people,percent,age_group,opportunity_youth
+0,2016.0,6.0,16 - 18,opportunity_youth
+1,29360.0,89.0,16 - 18,not_an_opportunity_youth
+2,1547.0,5.0,16 - 18,working_without_diploma
+3,4320.0,15.0,19 - 21,opportunity_youth
+4,15276.0,53.0,19 - 21,not_an_opportunity_youth
+5,9481.0,33.0,19 - 21,working_without_diploma
+6,9223.0,24.0,22 - 24,not_an_opportunity_youth
+7,22786.0,60.0,22 - 24,working_without_diploma
+8,5695.0,15.0,22 - 24,opportunity_youth
