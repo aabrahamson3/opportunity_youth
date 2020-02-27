@@ -1,5 +1,5 @@
 /*
-    Author:     Yu Fen Lin
+    Author:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
     Date:       November 12, 2019
     Purpose:    Count the number of 2017 population in opportunity youth in South King County
                 in defferent diploma

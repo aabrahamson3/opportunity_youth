@@ -1,5 +1,5 @@
 /*  
-    AUTHOR:     Akash Rama
+    AUTHOR:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
     Date:       Nov 12, 2019
     NOTE:       This query joins who and age table to pums_2017 and gets total amount of people based
                 on their age range and wheater or not they are an opportunity youth

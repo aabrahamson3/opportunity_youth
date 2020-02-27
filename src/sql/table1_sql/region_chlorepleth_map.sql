@@ -1,5 +1,5 @@
 /*
-    AUTHOR:     Akash Rama
+    AUTHOR:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
     Date:       Nov 12, 2019
     NOTE:       This query obtains the numer of opportunity youth per region
 */

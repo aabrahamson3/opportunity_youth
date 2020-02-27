@@ -1,5 +1,5 @@
 /*
-Author:     Akash Rama
+Author:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
 Date:       Nov 12, 2019
 Note:       Total number of people in South King County
 */

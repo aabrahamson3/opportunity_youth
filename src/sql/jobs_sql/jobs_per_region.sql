@@ -1,5 +1,5 @@
 /*      
-    Author:     Akash Rama
+    Author:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
     Date:       Nov 14, 2019
     Note:       This query finds the percenatage of jobs available for under 29 out of the total number of jobs. 
 */

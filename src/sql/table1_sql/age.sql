@@ -1,5 +1,5 @@
 /*    
-    AUTHOR:     Akash Rama
+    AUTHOR:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
     Date:       Nov 12, 2019
     Note:       Creates a table that groups each unique identifer by age range
                 16 - 18, 19 - 21, 22 - 24, 25 - 99

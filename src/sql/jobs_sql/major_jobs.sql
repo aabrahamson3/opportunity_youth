@@ -1,25 +1,10 @@
-/*
-SELECT tabblk2010,
-ROUND((SUM(ca01) * 100 / SUM(c000)), 2) AS percentage_for_under_29,
-SUM(cns01),
-SUM(cns02),
-SUM(cns03),
-SUM(cns04),
-SUM(cns05),
-SUM(cns06),
-SUM(cns07),
-SUM(cns08),
-SUM(cns09),
-SUM(cns10),
-SUM(cns11),
-SUM(cns12),
-SUM(cns13),
-SUM(cns14)
-FROM wa_geo_xwalk wx
-JOIN wa_jobs_2017 wj ON wx.tabblk2010 = wj.w_geocode
-WHERE ctycsubname LIKE '%King%'
-GROUP BY tabblk2010;
+/*      
+    Author:     Aaron Abrahamson, Yu Fen Lin, Akash Rama
+    Date:       Nov 14, 2019
+    Note:       This query finds the percenatage of jobs available for under 29 and creates a table. 
 */
+
+
 CREATE TABLE job_totals AS (
 
 SELECT puma5ce AS puma,
